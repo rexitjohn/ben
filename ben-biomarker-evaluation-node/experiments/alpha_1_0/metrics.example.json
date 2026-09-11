@@ -1,0 +1,19 @@
+{
+  "_note": "Illustrative schema only. Replace with output from a documented experiment.",
+  "n": 250,
+  "threshold": 0.5,
+  "accuracy": null,
+  "roc_auc": null,
+  "sensitivity": null,
+  "specificity": null,
+  "precision": null,
+  "npv": null,
+  "f1": null,
+  "brier_score": null,
+  "confusion_matrix": {
+    "tn": null,
+    "fp": null,
+    "fn": null,
+    "tp": null
+  }
+}
