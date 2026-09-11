@@ -70,10 +70,6 @@ Any future claim of clinical utility should require, at minimum: locked preproce
 
 See [`docs/validation.md`](docs/validation.md).
 
-## Roadmap
-
-See [`ROADMAP.md`](ROADMAP.md).
-
 ## License
 
 Apache-2.0. See [`LICENSE`](LICENSE).
