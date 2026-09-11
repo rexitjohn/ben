@@ -1,4 +1,4 @@
-# ben — Biomarker Evaluation Node
+# Biomarker Evaluation Node (ben)
 
 **ben** is an experimental veterinary machine-learning research project for evaluating whether structured biomarker-like signal patterns can help distinguish **canine cancer-positive** samples from **benign/control** samples.
 
