@@ -1,5 +1,13 @@
 import numpy as np
-from sklearn.metrics import accuracy_score, brier_score_loss, confusion_matrix, f1_score, precision_score, roc_auc_score
+from sklearn.metrics import (
+    accuracy_score,
+    brier_score_loss,
+    confusion_matrix,
+    f1_score,
+    precision_score,
+    roc_auc_score,
+)
+
 
 def classification_metrics(y_true, probability, threshold: float = 0.50) -> dict:
     y_true = np.asarray(y_true, dtype=int)
@@ -10,7 +18,7 @@ def classification_metrics(y_true, probability, threshold: float = 0.50) -> dict
     specificity = tn / (tn + fp) if (tn + fp) else float("nan")
     npv = tn / (tn + fn) if (tn + fn) else float("nan")
     return {
-        "n": int(len(y_true)), "threshold": float(threshold), "accuracy": float(accuracy_score(y_true, y_pred)),
+        "n": len(y_true), "threshold": float(threshold), "accuracy": float(accuracy_score(y_true, y_pred)),
         "roc_auc": float(roc_auc_score(y_true, probability)), "sensitivity": float(sensitivity),
         "specificity": float(specificity), "precision": float(precision_score(y_true, y_pred, zero_division=0)),
         "npv": float(npv), "f1": float(f1_score(y_true, y_pred, zero_division=0)),

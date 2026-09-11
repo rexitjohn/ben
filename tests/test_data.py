@@ -1,5 +1,6 @@
 from ben.data import FEATURE_COLUMNS, TARGET_COLUMN, make_synthetic_canine_dataset
 
+
 def test_synthetic_dataset_shape_and_columns():
     df = make_synthetic_canine_dataset(rows=200, random_state=7)
     assert len(df) == 200

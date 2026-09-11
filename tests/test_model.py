@@ -1,7 +1,9 @@
 from sklearn.model_selection import train_test_split
+
 from ben.data import FEATURE_COLUMNS, TARGET_COLUMN, make_synthetic_canine_dataset
 from ben.evaluate import classification_metrics
 from ben.model import build_model
+
 
 def test_model_trains_and_scores():
     df = make_synthetic_canine_dataset(rows=240, random_state=10)
