@@ -11,7 +11,7 @@ ben packages preprocessing, model training, calibration-minded evaluation, and e
 
 ## Current status
 
-**Alpha 1.0 — research prototype**
+**Alpha 1.0 - research prototype**
 
 Included today:
 - synthetic canine assay-data generator
