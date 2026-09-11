@@ -27,7 +27,7 @@ Included today:
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ben.git
+git clone https://github.com/rexitjohn/ben.git
 cd ben
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
