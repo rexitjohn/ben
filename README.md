@@ -1,6 +1,6 @@
 # Biomarker Evaluation Node (ben)
 
-**ben** is an experimental veterinary machine-learning research project exploringwhether biomarker-derived signal patterns can support earlier identification of cancer-associated samples in dogs.
+**ben** is an experimental veterinary machine-learning research project exploring whether biomarker-derived signal patterns can support earlier identification of cancer-associated samples in dogs.
 
 
 > **Research use only. Not a veterinary diagnostic device.**  
