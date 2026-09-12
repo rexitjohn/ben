@@ -1,4 +1,4 @@
-# Clinic beta — research concept
+# Clinic beta - research concept
 
 A future clinic beta should test sample consistency, site effects, calibration, repeatability, operational failure modes, handling of uncertain results, and communication of limitations.
 
