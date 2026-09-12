@@ -7,5 +7,3 @@ Model: class-balanced logistic regression.
 Split: stratified 75/25 development-holdout.  
 Primary metric: ROC-AUC.  
 Secondary metrics: sensitivity, specificity, precision, NPV, F1, accuracy, Brier score.
-
-Any metric from this experiment is a **software demonstration**, not evidence that ben detects cancer in real dogs.
