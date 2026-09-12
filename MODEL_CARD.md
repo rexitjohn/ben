@@ -1,7 +1,7 @@
-# Model Card — ben alpha 1.0
+# M ben
 
 ## Model details
-**Name:** ben alpha 1.0  
+**Name:** ben 
 **Project:** Biomarker Evaluation Node  
 **Type:** binary probabilistic classifier  
 **Reference implementation:** logistic regression with standardized numeric inputs
